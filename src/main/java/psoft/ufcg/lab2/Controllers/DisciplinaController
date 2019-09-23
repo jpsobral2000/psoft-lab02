@@ -1,0 +1,22 @@
+package psoft.ufcg.lab2.Controllers;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import psoft.ufcg.lab2.Service.DisciplinaService;
+
+import javax.annotation.PostConstruct;
+
+@RestController
+public class DisciplinaController {
+
+
+    private DisciplinaService disciplinaService;
+
+
+    public DisciplinaController(){
+
+
+    }
+
+
+}
